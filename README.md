@@ -3,6 +3,8 @@
 ### Objective:
 To provide a comprehensive analysis of employee leave usage, including various leave categories, to help HR monitor trends and ensure policy compliance. This dashboard will track both full-day and half-day leave usage across different leave types such as paid leave, sick leave, work from home, etc.
 
+ask :  the working preference of people: work from home or work from office.
+
 ### Key Leave Categories:
 
 - Paid Leave (PL)
