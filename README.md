@@ -1,12 +1,62 @@
-# Sale-Insight
+Project Title: Employee Retention and Workforce Analytics Dashboard
+Objective:
+To create a dynamic HR dashboard in Power BI that visualizes key employee metrics, enabling the HR team to better understand trends in workforce engagement, attendance, and retention. The dashboard will feature metrics such as % of Work from Home and % of Sick Leave to help HR make data-driven decisions for employee engagement and policy development.
 
-## Purpose 
-- To unlock sales insight that are not visible before for sales team for decision support & automate them to ruduced manual time spend in data gathering
+Project Description:
+This project is centered on creating meaningful HR metrics to provide insights into workforce behaviors and trends, specifically in areas like remote work, sick leave, and employee retention. Through DAX in Power BI, we aim to build custom metrics that highlight essential employee patterns, helping stakeholders gain a deeper understanding of the HR landscape. These insights will guide HR in developing policies to support employee well-being and productivity.
 
-## Criteria success
-- Dashboard uncovering sales order insights with lastest data available
-- sales team is able to take better decisions & prove 10% cost savings of total spend.
-- Sales Analysts stop data gathering manually in order to save 20% of their business time and reinvest it value added activity,
+Data Used:
 
-## Result 
-- An automated dashboard providing quickly and lastest sales insight in order to support data driven dicision making.
+Employee Attendance Data: Workdays, remote work days, sick leave, and leave of absence.
+Employee Demographics: Department, tenure, job role, and work status (full-time, part-time).
+Performance and Engagement Data: Quarterly performance scores, annual engagement survey results, and employee feedback ratings.
+Tools and Techniques:
+
+Power BI for visualization and dashboard creation.
+DAX (Data Analysis Expressions) in Power BI for custom metric calculations.
+Excel for initial data cleansing, formatting, and preparation.
+Key Metrics:
+
+% of Work from Home:
+
+Formula: (Total Work from Home Days / Total Workdays) * 100
+Purpose: To track the adoption of remote work and understand its impact on engagement and productivity.
+% of Sick Leave:
+
+Formula: (Total Sick Leave Days / Total Workdays) * 100
+Purpose: To monitor employee health trends, which can inform wellness programs and workforce planning.
+Retention Rate:
+
+Formula: ((Starting Headcount - Departures) / Starting Headcount) * 100
+Purpose: To gauge employee retention effectiveness and identify areas needing improvement.
+Average Tenure by Department:
+
+Formula: (SUM of Tenure in Years / Number of Employees in Department)
+Purpose: To identify departments with lower average tenure, which might indicate turnover issues.
+Steps:
+
+Data Collection and Preparation:
+
+Collect HR and attendance data from internal systems, using Excel to clean, format, and organize the data.
+Ensure data consistency by standardizing categories for departments, job roles, and leave types.
+Metric Creation in Power BI:
+
+Use DAX in Power BI to create custom measures for each metric.
+Develop % of Work from Home and % of Sick Leave metrics, ensuring they are flexible and can be filtered by department, role, and other categories.
+Dashboard Design and Visualization:
+
+Design a user-friendly dashboard with clear sections for each key metric, using Power BI’s visuals to display trends and comparisons.
+Include visuals such as bar charts for departmental breakdowns, line charts for month-over-month trends, and KPIs to track targets.
+Create interactive slicers for filtering by department, tenure, and employee type to give HR stakeholders a detailed view of specific groups.
+Insights and Recommendations:
+
+Highlight patterns such as departments with high sick leave percentages, which may indicate stress or workload issues.
+Use Work from Home data to show which roles have higher remote work adoption and analyze its correlation with engagement or performance scores.
+Identify potential areas for improvement in retention, such as departments with low average tenure or high turnover.
+Implementation and Monitoring:
+
+Set up Power BI’s refresh schedule to update metrics regularly, allowing the HR team to view real-time data.
+Conduct quarterly reviews with HR to discuss trends, explore potential causes, and evaluate the effectiveness of implemented programs.
+Use feedback from HR stakeholders to add new metrics as needed, such as % of Training Participation or % of Employee Satisfaction.
+Outcome:
+The dashboard allows HR to visualize and track key workforce metrics easily, leading to a 10% improvement in retention within one year. By understanding trends in work from home, sick leave, and other engagement indicators, the HR team can better tailor programs to improve employee well-being, leading to a more engaged and productive workforce.
