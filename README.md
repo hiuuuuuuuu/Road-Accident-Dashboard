@@ -1,7 +1,27 @@
-# Project Title: Employee Retention and Workforce Analytics Dashboard
+# Project Title: Employee Leave Tracking and Time-Off Analysis Dashboard
 
 ### Objective:
-To create a dynamic HR dashboard in Power BI that visualizes key employee metrics, enabling the HR team to better understand trends in workforce engagement, attendance, and retention. The dashboard will feature metrics such as % of Work from Home and % of Sick Leave to help HR make data-driven decisions for employee engagement and policy development.
+To provide a comprehensive analysis of employee leave usage, including various leave categories, to help HR monitor trends and ensure policy compliance. This dashboard will track both full-day and half-day leave usage across different leave types such as paid leave, sick leave, work from home, etc.
+
+### Key Leave Categories:
+
+**Paid Leave (PL)
+Sick Leave (SL)
+Half Day Paid Leave (Half PL)
+Half Day Sick Leave (Half SL)
+Work from Home (WFH)
+Floating Festival Leave
+Half Day Floating Festival Leave
+Birthday Leave
+Leave Without Pay (LWOP)
+Half Day Leave Without Pay
+Bereavement Leave
+Half Bereavement Leave
+Half Work from Home
+Weekly Off
+Holiday Off
+Menstrual Leave (ML)
+Half Day Menstrual Leave (Half ML)**
 
 ### Project Description:
 This project is centered on creating meaningful HR metrics to provide insights into workforce behaviors and trends, specifically in areas like remote work, sick leave, and employee retention. Through DAX in Power BI, we aim to build custom metrics that highlight essential employee patterns, helping stakeholders gain a deeper understanding of the HR landscape. These insights will guide HR in developing policies to support employee well-being and productivity.
