@@ -1,9 +1,16 @@
-# Project Title: Employee Leave Tracking and Time-Off Analysis Dashboard
+# Project Title: Road Accident Dashboard
 
-### Objective:
-To provide a comprehensive analysis of employee leave usage, including various leave categories, to help HR monitor trends and ensure policy compliance. This dashboard will track both full-day and half-day leave usage across different leave types such as paid leave, sick leave, work from home, etc.
+### Requirement
+- Clients want to create a road accident dashboard for year 2021 and 2022  so that we they can have insight on the below requirements-
 
-ask :  the working preference of people: work from home or work from office.
+- Primary key  KPI - Total Causualties and total accident values for current year and Yoy growth.
+- Primary KPI's - Total Casualties by Accident Severity for currrent year and Yoy growth.
+- Secondary KPI's Total Casualties with respect to vehicle type for Current year.
+- Monthly trend showing comparision of casualties for current year and previous year.
+- Casualties by Road Type for current year.
+- Current Year Casualties by Area/Location & by Day/Night.
+- Total Casualties and Total Accident by Location.
+
 
 ### Key Leave Categories:
 
